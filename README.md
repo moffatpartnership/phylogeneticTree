@@ -28,7 +28,7 @@ There is a very simple CSS preloader within the #Processing styling with links t
 
 #### Javascript
 
-The javascript file phylogeneticTree.js has an anonymous executing function called WDViewer, this loads the assets on start-up and then when all is loaded the GSAP Ticker fires the frameRender function.
+The javascript file phylogeneticTree.js has an anonymous executing function called TRViewer, this loads the assets on start-up and then when all is loaded the GSAP Ticker fires the frameRender function.
 
 There are three other anonymous functions handling the loading the drawing and the control.
 
