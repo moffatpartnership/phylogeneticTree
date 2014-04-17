@@ -25,7 +25,7 @@ window.TRViewer = {};
 
         var storygroupid = document.getElementById("canvasPhylogeneticTree").getAttribute("data-haplogroup-id");
 
-        $.getJSON('https://api.moffpart.com/api/1/databases/sdnacontent/collections/c2TreeData?q={"storygroupid":"'+ storygroupid +'"}&apiKey=50e55b5fe4b00738efa04da0&callback=?', function(ret) {
+        $.getJSON('https://api.moffpart.com/api/1/results/getHaplogroup?q={"storygroupid":"'+ storygroupid +'"}&c=c2TreeData&callback=?', function(ret) {
 
             mapItems = ret[0].mapItems;
             srcItems = ret[0].srcItems;
